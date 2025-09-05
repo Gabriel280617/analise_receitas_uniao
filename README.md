@@ -10,12 +10,14 @@ Este projeto analisa as receitas da União usando dados do Portal Brasileiro de 
 
 ## Estrutura do Projeto
 - `analise_receitas.py`: Script com análise e interface Tkinter.
+- `basic_statistics.py`: Script com diferentes estatísticas.
 - `Receita-Orcamentaria-da-Uniao.csv`: Dataset com 19 colunas (12 usadas).
 - `requirements.txt`: Dependências do projeto.
 
 ## Como Executar
 1. Instale as dependências: `pip install -r requirements.txt`
-2. Execute: `python analise_receitas.py`
+2. Execute: `analise_receitas.py`
+3. Execute: `basic_statistics.py`
 
 ## Resultados
 - Interface exibe totais formatados (ex.: R$ 1,22T em 1980).
@@ -26,3 +28,4 @@ Este projeto analisa as receitas da União usando dados do Portal Brasileiro de 
 
 ## Screenshots
 ![Gráfico de Receitas 1980](screenshots/grafico_1980.png)
+![Data Frame com estatísticas](screenshots/pandasgui.png)
